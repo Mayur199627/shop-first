@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alkatra&family=Dancing+Script&family=Delicious+Handrawn&family=Leckerli+One&family=Mulish:wght@300&family=Permanent+Marker&family=Varela+Round&family=Zeyada&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: calc(100vh - 10vh);
+    width: 100%;
+}
+
+.product-list{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-product{
+    height: 300px;
+    width: 250px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5vh;
+}
+
+.product-img{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-img img{
+    height: 100%;
+    width: 50%;
+}
+
+.product-category{
+    color: gray;
+}
+
+.product-name{
+    font-weight: 900;
+    text-align: center;
+}
+
+.product-disc{
+    text-align: justify;
+    height: 30%;
+   overflow-y: scroll;
+}
+.product-disc::-webkit-scrollbar {
+    display: none;
+}

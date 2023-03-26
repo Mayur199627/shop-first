@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Alkatra&family=Dancing+Script&family=Delicious+Handrawn&family=Leckerli+One&family=Mulish:wght@300&family=Permanent+Marker&family=Varela+Round&family=Zeyada&display=swap');
+
+.detailed-product{
+    width: 100%;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.left-section{
+    height: 70vh;
+    width: 40%;
+}
+
+.left-section img{
+    height: 100%;
+    width: 100%;
+}
+
+.right-section{
+    height: 70vh;
+    width: 55%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-name-dtl{
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.product-disc-dtl{
+    width: 100%;
+    font-size: 1.5rem;
+    color: gray;
+    overflow: scroll;
+}
+
+.product-disc-dtl::-webkit-scrollbar {
+    display: none;
+}
+
+.product-category-dtl{
+    font-size: 1rem;
+    color: gray;
+    text-align: justify;
+}
+
+.product-price-dtl{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.rating-dtl{
+    font-size: 1.5rem;
+}
+
+.cart-btn{
+    height: 20%;
+    width: 30%;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
